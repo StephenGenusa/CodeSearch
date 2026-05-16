@@ -8,7 +8,7 @@ This is an AI-assisted coded application, not vibe coded. This was a weekend pro
 
 ![](codesearch.jpg)
 
-Since the program uses the textual library, the user interface expands beautifully as the size of the console is changed. Your mouse also works as expected on all the controls. If you double-click a file in the hit-list, notepad++ will open the file to the line the hit occurs. This makes searching for and fixing breaking changes across projects very easy.
+Since the program uses the textual library, the user interface expands beautifully as the size of the console is changed. Your mouse also works as expected on all the controls. If you double-click a file in the hit-list, notepad++ will open the file to the line the hit occurs. This makes searching for and making changes across projects very easy.
 
 ## ✨ Features
 
