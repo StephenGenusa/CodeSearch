@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.2.0-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Python](https://img.shields.io/badge/python-3.10+-yellow)
 
-I have traditionally relied on PowerGrep, Notepad++ or other editor search functionality to search across projects. It always took too long and the results were not actionable. I needed a way to *quickly* search across my projects and then open an editor.  **PyCodeSearch** is a high-performance Python source code search utility that operates via Command Line Interface (CLI) or an interactive Textual TUI. Given that Python is my primary language, I wanted to be able to search at a specifiable level of all my projects (application, user module, or everything) so it supports literal and regex matching across configurable directory trees with multiple search scopes to control traversal depth and exclusions.
+I have traditionally relied on PowerGREP, Notepad++ or other editor search functionality to search across projects. It always took too long and the results were not actionable. I needed a way to *quickly* search across my projects and then open an editor.  **PyCodeSearch** is a high-performance source code search utility that operates via Command Line Interface (CLI) or an interactive Textual TUI. Given that Python is my primary language, I wanted to be able to search at a specifiable level of all my projects (application, user module, or everything) so it supports literal and regex matching across configurable directory trees with multiple search scopes to control traversal depth and exclusions.
 
 This is an AI-assisted coded application, not vibe coded. This was a weekend project so I wanted to throw something together quickly without investing a lot of time.
 
