@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.2.0-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Python](https://img.shields.io/badge/python-3.10+-yellow)
 
-I have traditionally relied on PowerGrep, Notepad++ or other editor search functionality across projects. It always took too long and the results were not actionable. I needed a way to *quickly* search across my projects and then open an editor.  **PyCodeSearch** is a high-performance Python source code search utility that operates via Command Line Interface (CLI) or an interactive Textual TUI. Given that Python is my primary language, I wanted to be able to search at a specifiable level of all my projects (application, user module, or everything) so it supports literal and regex matching across configurable directory trees with multiple search scopes to control traversal depth and exclusions.
+I have traditionally relied on PowerGrep, Notepad++ or other editor search functionality to search across projects. It always took too long and the results were not actionable. I needed a way to *quickly* search across my projects and then open an editor.  **PyCodeSearch** is a high-performance Python source code search utility that operates via Command Line Interface (CLI) or an interactive Textual TUI. Given that Python is my primary language, I wanted to be able to search at a specifiable level of all my projects (application, user module, or everything) so it supports literal and regex matching across configurable directory trees with multiple search scopes to control traversal depth and exclusions.
 
 This is an AI-assisted coded application, not vibe coded. This was a weekend project so I wanted to throw something together quickly without investing a lot of time.
 
@@ -17,7 +17,7 @@ Since the program uses the textual library, the user interface expands beautiful
     *   `Top`: Search only files in immediate subdirectories.
     *   `User`: Recursive search excluding noise directories (e.g., `.venv`, `.git`, `node_modules`).
     *   `All`: Recursive search with no exclusions.
-*   **Performance Optimized:** Uses a tiered binary pre-filter strategy to skip files that do not contain the search term, avoiding expensive text decoding.
+*   **Performance Optimized:** Uses a tiered binary pre-filter strategy to skip files that do not contain the search term, avoiding expensive text decoding and line number determination.
 *   **Rich Output:** Syntax-highlighted matches and context lines in both TUI and CLI modes.
 *   **Editor Integration:** Double-click hits or press `Ctrl+O` to jump directly to the line in Notepad++.
 *   **Programmatic API:** Returns structured metadata objects (`SearchResult`, `FileResult`, `LineMatch`) for use in other Python applications.
